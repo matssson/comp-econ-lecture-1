@@ -23,50 +23,115 @@
             <li><a href="#contact" class="btn-outline">Access Terminal</a></li>
         </ul>
     </nav>
+    <div id="app-container">
+        <header id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="animate-up">Simulate. <br /><span class="gradient-text">Predict. Optimize.</span></h1>
+                <p class="animate-up delay-1" id="scramble-text">Harnessing the power of agent-based modeling and deep
+                    learning to dissect complex economic systems and dynamic market equilibriums at scale.</p>
+                <div class="cta-group animate-up delay-2">
+                    <a href="#models" class="btn-primary" id="cta-work">Initialize Model</a>
+                    <a href="#docs" class="btn-secondary" id="cta-services">Read Docs</a>
+                </div>
+            </div>
+            <div class="hero-shapes">
+                <div class="grid-overlay"></div>
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+        </header>
 
-    <header id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="animate-up">Simulate. <br /><span class="gradient-text">Predict. Optimize.</span></h1>
-            <p class="animate-up delay-1" id="scramble-text">Harnessing the power of agent-based modeling and deep
-                learning to dissect complex economic systems and dynamic market equilibriums at scale.</p>
-            <div class="cta-group animate-up delay-2">
-                <a href="#models" class="btn-primary" id="cta-work">Initialize Model</a>
-                <a href="#docs" class="btn-secondary" id="cta-services">Read Docs</a>
+        <section id="models" class="services">
+            <div class="section-header">
+                <h2>Computational Methodologies</h2>
+                <p>> Parsing economic reality into algorithmic structure...</p>
             </div>
-        </div>
-        <div class="hero-shapes">
-            <div class="grid-overlay"></div>
-            <div class="shape shape-1"></div>
-            <div class="shape shape-2"></div>
-        </div>
-    </header>
+            <div class="cards-container">
+                <div class="card glass" id="card-abm">
+                    <div class="icon">🤖</div>
+                    <h3>Agent-Based Modeling</h3>
+                    <p>Simulate bottom-up market phenomena through millions of interacting heterogeneous agents with
+                        bounded
+                        rationality.</p>
+                </div>
+                <div class="card glass" id="card-ml">
+                    <div class="icon">⚡</div>
+                    <h3>Deep Reinforcement Learning</h3>
+                    <p>Apply advanced PPO algorithms to identify Nash equilibria in high-dimensional, complex stochastic
+                        games.</p>
+                </div>
+                <div class="card glass" id="card-network">
+                    <div class="icon">🕸️</div>
+                    <h3>Network Economics</h3>
+                    <p>Graph theoretic analysis of systemic risk, contagion vectors, and asymmetric information flow
+                        across financial networks.</p>
+                </div>
+            </div>
+        </section>
 
-    <section id="models" class="services">
-        <div class="section-header">
-            <h2>Computational Methodologies</h2>
-            <p>> Parsing economic reality into algorithmic structure...</p>
-        </div>
-        <div class="cards-container">
-            <div class="card glass" id="card-abm">
-                <div class="icon">🤖</div>
-                <h3>Agent-Based Modeling</h3>
-                <p>Simulate bottom-up market phenomena through millions of interacting heterogeneous agents with bounded
-                    rationality.</p>
+        <section id="research" class="research">
+            <div class="section-header">
+                <h2>Recent Publications</h2>
+                <p>> Accessing secure preprint archive...</p>
             </div>
-            <div class="card glass" id="card-ml">
-                <div class="icon">⚡</div>
-                <h3>Deep Reinforcement Learning</h3>
-                <p>Apply advanced PPO algorithms to identify Nash equilibria in high-dimensional, complex stochastic
-                    games.</p>
+            <div class="paper-grid">
+                <div class="paper-item glass">
+                    <div class="paper-meta">Nov 2025 • Neural Economics</div>
+                    <h3>Emergence of Hyper-Inflationary Bubbles in Multi-Agent Neural Networks</h3>
+                    <p>Analyzing the spontaneous generation of asset bubbles when RL agents are subjected to partial
+                        information observability in simulated limit order books. We demonstrate that greedy policies
+                        inevitably lead to systemic collapse under high-frequency trading conditions.</p>
+                    <div class="paper-authors">Dr. A. Neumann, et al.</div>
+                    <a href="#download" class="btn-outline paper-link">Download PDF [4.2 MB]</a>
+                </div>
+
+                <div class="paper-item glass">
+                    <div class="paper-meta">Oct 2025 • Quantum Finance</div>
+                    <h3>Quantum Reinforcement Learning for Pricing Exotic Derivatives in Illiquid Markets</h3>
+                    <p>A novel framework utilizing quantum superposition to evaluate deep OTM options where classical
+                        Monte Carlo simulations fail due to state-space explosion.</p>
+                    <div class="paper-authors">M. Black, Scholes Labs</div>
+                    <a href="#download" class="btn-outline paper-link">Download PDF [1.8 MB]</a>
+                </div>
+
+                <div class="paper-item glass">
+                    <div class="paper-meta">Sep 2025 • Decentralized Systems</div>
+                    <h3>Algorithmic Collusion Dynamics in Decentralized Automated Market Makers (AMMs)</h3>
+                    <p>Empirical evidence of emergent, decentralized cartel behavior among MEV (Maximal Extractable
+                        Value) searcher bots exploiting constant-product liquidity pools.</p>
+                    <div class="paper-authors">Satoshi, V. Buterin</div>
+                    <a href="#download" class="btn-outline paper-link">Download PDF [3.5 MB]</a>
+                </div>
+
+                <div class="paper-item glass">
+                    <div class="paper-meta">Aug 2025 • Generative Modeling</div>
+                    <h3>Stochastic Volatility Modeling via Generative Adversarial Networks (GANs)</h3>
+                    <p>Replacing traditional Heston models with deep convolutional GANs trained on 50 years of
+                        tick-by-tick order flow data to synthesize hyper-realistic market stress scenarios.</p>
+                    <div class="paper-authors">D. Ricardo, J. Keynes</div>
+                    <a href="#download" class="btn-outline paper-link">Download PDF [8.1 MB]</a>
+                </div>
+
+                <div class="paper-item glass">
+                    <div class="paper-meta">Jul 2025 • Game Theory</div>
+                    <h3>Nash Equilibria in N-Player Non-Cooperative Games Approximated by Swarm Intelligence</h3>
+                    <p>Applying ant colony optimization algorithms to solve for equilibria in oligopolistic competition
+                        models with an arbitrarily large number of heterogeneous firms.</p>
+                    <div class="paper-authors">J. Nash Institute</div>
+                    <a href="#download" class="btn-outline paper-link">Download PDF [2.2 MB]</a>
+                </div>
+
+                <div class="paper-item glass">
+                    <div class="paper-meta">Jun 2025 • Network Theory</div>
+                    <h3>Predicting Macroeconomic Contagion using Topological Graph Theory on Global Supply Chains</h3>
+                    <p>Mapping 10 million global supply chain dependencies as a directed acyclic graph to identify
+                        critical failure nodes capable of triggering cascading defaults.</p>
+                    <div class="paper-authors">E. Maskin, L. Walras</div>
+                    <a href="#download" class="btn-outline paper-link">Download PDF [5.6 MB]</a>
+                </div>
             </div>
-            <div class="card glass" id="card-network">
-                <div class="icon">�️</div>
-                <h3>Network Economics</h3>
-                <p>Graph theoretic analysis of systemic risk, contagion vectors, and asymmetric information flow across
-                    financial networks.</p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <script src="script.js"></script>
 </body>
